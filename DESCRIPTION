@@ -1,0 +1,16 @@
+Package: FitARMA.h
+Title: Fit ARMA or ARIMA Using Fast MLE Algorithm
+Version: 1.6.1
+Date: 2013-09-26
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Depends: R (>= 2.1.0), FitAR
+Description: Implements fast maximum likelihood algorithm for fitting ARMA 
+    time series. Uses S3 methods print, summary, fitted, residuals. 
+    Fast exact Gaussian ARMA simulation.
+License: GPL (>= 2)
+NeedsCompilation: yes
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
